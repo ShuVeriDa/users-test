@@ -1,0 +1,49 @@
+.fullUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  max-width: 631px;
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  div {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .userId {
+    font-weight: bold;
+  }
+
+  .userLogin {
+    a {
+      color: #007bff;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+  .followerRepo {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  .followerCount,
+  .repoCount {
+    font-weight: bold;
+  }
+}
